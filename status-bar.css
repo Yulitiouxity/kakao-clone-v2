@@ -8,10 +8,18 @@
 }
 
 /*스테이터스 바에 있는 아이콘들을 모두 */
-.status-bar i {
-  font-size: 14px;
+.status-bar {
+  display: flex;
+  align-items: left;
+  top: 0px;
+  font-size: 15px;
+  margin-left: 4px;
+  margin-right: 20px;
 }
-
 .status-bar .status_bar__battery-level {
   margin-left: 7px;
+  position: fixed;
+  width: 10px;
+  margin-left: 20px;
+  right: 30px;
 }

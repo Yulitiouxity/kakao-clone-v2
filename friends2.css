@@ -1,0 +1,15 @@
+.friends .freind__plus {
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 20px;
+  /*or margin : 20px 0px is enough too*/
+}
+.freind__plus .freinds__title,
+.friends_list .freinds__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  /*if you work only with black and white, you simply give black opacity!!!!*/
+}
