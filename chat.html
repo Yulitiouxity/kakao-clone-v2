@@ -13,67 +13,64 @@
     <title>CHAT | KAKAO CLONE</title>
   </head>
   <body class="chats-body">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54 </span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54 </span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status_bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status_bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div>
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left"></i>
-        </a>
-        <h1 class="header__title">노무현</h1>
-      </div>
-
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header__title">Example_A</h1>
+        </div>
+        <div class="header__header-column">
           <span class="header__icon">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-search"></i>
+            <span class="header__icon">
+              <i class="fas fa-bars"></i>
+            </span>
           </span>
-        </span>
-      </div>
-    </header>
+        </div>
+      </header>
+    </div>
+
     <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">
           -----------------Friday, January 11,2019-----------------
         </span>
         <li class="incoming-message message">
-          <img src="images/rhm.jpg" class="m-avatar message__avatar" />
+          <img src="images/temp_hooman.png" class="m-avatar message__avatar" />
           <div class="message__content">
-            <div class="message__bubble">떡 사먹었느냐!</div>
-            <span class="message__author">노무현</span>
+            <span class="message__bubble">안녕하세요! 처음뵙겠습니다.</span>
+            <span class="message__author">Example_A</span>
           </div>
         </li>
         <li class="sent-message message">
           <div class="message__content">
             <span class="message__timestamp"></span>
-            <div class="message__bubble">아니 애비가 누구야? 뭐 애비?</div>
+            <div class="message__bubble">네! 처음뵙겠습니다.!</div>
           </div>
         </li>
       </ul>
     </main>
-    <div class="chat__write">
-      <div class="chat__write--column">
+    <!-- DIV OF THE ICON MUST BE PLACED NEXT TO INPUT!!!!-->
+    <div class="chat__write--container">
+      <input class="chat__write" type="text" placeholder="Send Message" />
+      <div class="chat__icon_left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write--column">
-        <input
-          type="text"
-          placeholder="Send Message"
-          class="chat__write-input"
-        />
-      </div>
-      <div class="chat__write--column">
+      <div class="chat__icon_right chat__icon">
         <span class="chat__write-icon"><i class="far fa-smile-wink"></i></span>
         <span class="chat__write-icon"><i class="fas fa-microphone"></i></span>
       </div>
